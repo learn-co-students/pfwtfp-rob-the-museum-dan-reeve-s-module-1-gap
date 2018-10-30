@@ -12,13 +12,14 @@ In this lab, you are a notorious art thief. Your goal is to "case" the museum an
 To start gathering information about your upcoming art heist, you will need to import your data from the `art_heist.csv` spreadsheet. 
 
 ### Follow tests to establish criminal conspiracy
-* which gallery has the most paintings
-* which has the fewest
-* which artist is best represented in the museum?
-* what is the total value of "van Gogh"
-* if we could steal a gallery to sell for money, which would be best?
-* shout "The Goldfinch"
+Now that you have all of the data that you need, use the tests to guide you to the following information:
+
+* Which gallery has the most paintings?
+* Which gallery has the fewest?
+* Which artist has the most paintings in the museum?
+* What is the total value of all of the van Gogh paintings in the museum?
+* If we could steal all the paintings in one gallery to sell for money, which would be best?
+* At the end of the lab, shout "The Goldfinch"
 
 ## Conclusion
-
-## Resources
+Now you are all ready to rob the museum! Make sure to wear dark colors and don't get caught.
