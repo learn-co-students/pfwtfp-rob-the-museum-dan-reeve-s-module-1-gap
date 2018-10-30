@@ -9,8 +9,7 @@
 In this lab, you are a notorious art thief. Your goal is to "case" the museum and establish critical information about the  crime that you are about to commit. 
 
 ### Read information in from CSV file
-* Read |id|gallery_name| from CSV file
-* Read |id|painting_name|artist|value| from CSV file
+To start gathering information about your upcoming art heist, you will need to import your data from the `art_heist.csv` spreadsheet. 
 
 ### Follow tests to establish criminal conspiracy
 * which gallery has the most paintings
