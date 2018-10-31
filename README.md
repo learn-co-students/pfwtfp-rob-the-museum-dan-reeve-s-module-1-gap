@@ -10,12 +10,12 @@
 In this lab, you are a notorious art thief. Your goal is to "case" the museum
 and establish critical information about the crime that you are about to commit.
 
-## Read information in from CSV file
+## Read Information From CSV File
 
 To start gathering information about your upcoming art heist, you will need to
 import your data from the `art_heist.csv` spreadsheet.
 
-## Follow tests to establish criminal conspiracy
+## Follow Tests to Establish Criminal Conspiracy
 
 Now that you have all of the data that you need, use the tests to guide you to
 the following information:
