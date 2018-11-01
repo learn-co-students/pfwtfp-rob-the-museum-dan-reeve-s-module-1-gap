@@ -17,9 +17,31 @@ Now that you have all of the data that you need, use the tests to guide you to t
 * Which gallery has the most paintings?
 * Which gallery has the fewest?
 * Which artist has the most paintings in the museum?
-* What is the total value of all of the van Gogh paintings in the museum?
+* What is the total value of all of the Van Gogh paintings in the museum?
 * If we could steal all the paintings in one gallery to sell for money, which would be best?
-* At the end of the lab, shout "The Goldfinch"
+
+## Instructions
+
+### Museum Class
+
+
+- start with `self.new_from_csv` - should take CSV and convert values to instances of
+galleries, paintings and artists.
+  - A museum has multiple galleries
+  - A gallery has multiple paintings
+  - An artist has multiple paintings
+  - A painting belongs to an artist and contains its value
+
+`self.biggest_gallery`:
+return the name of the biggest gallery
+`self.smallest_gallery`:
+
+`self.artist_most_occurring`:
+
+`self.value_of_artist(artist_name)`:
+
+`self.most_valuable_gallery`:
+
 
 ## Conclusion
-Now you are all ready to rob the museum! Make sure to wear dark colors and don't get caught.
+Now you are all ready to rob the museum!
