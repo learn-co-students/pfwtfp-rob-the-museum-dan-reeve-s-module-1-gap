@@ -6,7 +6,6 @@
 - Follow tests to establish criminal conspiracy
 
 ## Introduction
-In this lab, you are a notorious art thief. Your goal is to "case" the museum and establish critical information about the  crime that you are about to commit. 
 
 In this lab, you are a notorious art thief. Your goal is to "case" the museum
 and establish critical information about the crime that you are about to
