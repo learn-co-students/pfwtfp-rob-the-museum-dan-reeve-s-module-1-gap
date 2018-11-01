@@ -1,8 +1,4 @@
 require 'spec_helper'
-require_relative '../lib/artist.rb'
-require_relative '../lib/gallery.rb'
-require_relative '../lib/painting.rb'
-require_relative '../lib/museum.rb'
 
 describe 'Museum' do
   describe '.new_from_csv' do
