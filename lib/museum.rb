@@ -1,7 +1,10 @@
+require 'csv'
+
 class Museum
-
   def self.new_from_csv
-
+    # Here's the data file, pass this to CSV.read (see the CSV documentation for
+    # more help!
+    data_file = (File.join(File.dirname(__FILE__), '..', 'art_heist.csv'))
   end
 
   def self.biggest_gallery
