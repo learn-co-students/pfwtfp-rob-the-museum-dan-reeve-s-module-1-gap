@@ -57,8 +57,8 @@ describe 'Museum' do
       expect( Museum ).to respond_to(:value_of_artist)
     end
     
-    it 'returns the correct artist' do
-      expect(Museum.value_of_artist(artist_name)).to eq("Pablo Picasso")
+    it 'returns the correct value of Vincent van Goghs works' do
+      expect(Museum.value_of_artist("Vincent van Gogh")).to eq(194400000)
     end
   end
 end

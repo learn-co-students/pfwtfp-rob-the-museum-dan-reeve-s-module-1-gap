@@ -71,7 +71,5 @@ class Museum
     values.inject(0) {|sum, x| sum + x}
   end
   
-  def self.most_valuable_gallery
-  end
 
 end
