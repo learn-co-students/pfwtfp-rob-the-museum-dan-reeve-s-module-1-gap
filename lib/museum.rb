@@ -36,19 +36,15 @@ class Museum
   end
 
   def self.biggest_gallery
-
     @@galleries.max_by {|gallery|
       gallery.paintings.length
     }.name
-
-    #group by gallery, then do max
   end
 
   def self.smallest_gallery
     @@galleries.min_by {|gallery|
       gallery.paintings.length
     }.name
-    #same, but min
   end
 
   def self.artist_most_occurring
@@ -75,6 +71,7 @@ class Museum
     values.inject(0) {|sum, x| sum + x}
   end
   
-  
+  def self.most_valuable_gallery
+  end
 
 end
