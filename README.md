@@ -12,7 +12,7 @@ In this lab, you are a notorious art thief. Your goal is to "case" the museum
 and establish critical information about the crime that you are about to
 commit.
 
-![The Great Muppet Caper](https://gph.is/19OL493)
+![The Great Muppet Caper](https://media.giphy.com/media/4wmnIO4AB9OI8/giphy.gif)
 
 ### Read Information in from CSV file
 
