@@ -50,16 +50,16 @@ method behavior as you write your solution. Run `learn` to see your progress.
 - Start with `initialize`: A museum should be initialized with a museum name as
   a `String`. The `initialize` method should set up any class instance variables.
 
--`new_from_csv`: takes in the name of a CSV file (`art_heist.csv` in our case)
+- `new_from_csv`: takes in the name of a CSV file (`art_heist.csv` in our case)
 and converts values to instances of galleries, paintings and artists. You may
 choose to develop relationships between museums, galleries, paintings and
 artists as you see fit, but at minimum:
 
-- A museum can have multiple galleries. An array of all galleries should be
+ - A museum can have multiple galleries. An array of all galleries should be
   returned using a `galleries` method or accessor.
-- A gallery can have multiple paintings
-- An artist can have multiple paintings
-- A painting contains its value
+ - A gallery can have multiple paintings
+ - An artist can have multiple paintings
+ - A painting contains its value
 
 - `biggest_gallery`: return the name of the biggest gallery by number of
   paintings
