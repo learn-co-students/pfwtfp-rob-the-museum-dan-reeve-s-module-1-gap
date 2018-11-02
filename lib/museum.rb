@@ -16,13 +16,14 @@ class Museum
   end
 
   def self.artist_most_occurring
-    
+
   end
-  
+
   def self.value_of_artist(artist_name)
 
   end
 
-  
+
+
 
 end
