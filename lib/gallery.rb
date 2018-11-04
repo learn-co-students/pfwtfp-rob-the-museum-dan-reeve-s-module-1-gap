@@ -24,7 +24,6 @@ class Gallery
   end
 
   def self.biggest
-    p @@data.values.map{|g| g.works.length}
     @@data.values.max_by{ |g| g.works.length}.name
   end
 
