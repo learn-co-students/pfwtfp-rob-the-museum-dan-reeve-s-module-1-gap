@@ -5,4 +5,4 @@ museum = Museum.new('Metropolitan Museum of Art')
 
 binding.pry
 
-puts "Run 'rub bin/case_museum.rb' from lesson directory to start pry session"
+puts "Run 'ruby bin/case_museum.rb' from lesson directory to start pry session"
