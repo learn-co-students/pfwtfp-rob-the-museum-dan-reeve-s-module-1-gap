@@ -26,7 +26,7 @@ describe 'Museum' do
   describe '.biggest_gallery' do
     before(:example) do
       @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
-      @museum.new_from_csv('art_heist.csv')
+      @museum.new_from_csv
     end
 
     it 'exists' do
@@ -42,7 +42,7 @@ describe 'Museum' do
 
     before(:example) do
       @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
-      @museum.new_from_csv('art_heist.csv')
+      @museum.new_from_csv
     end
 
     it 'exists' do
@@ -58,7 +58,7 @@ describe 'Museum' do
 
     before(:example) do
       @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
-      @museum.new_from_csv('art_heist.csv')
+      @museum.new_from_csv
     end
 
     it 'exists' do
@@ -74,7 +74,7 @@ describe 'Museum' do
 
     before(:example) do
       @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
-      @museum.new_from_csv('art_heist.csv')
+      @museum.new_from_csv
     end
 
     it 'exists' do
