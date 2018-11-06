@@ -17,7 +17,7 @@ commit.
 
 To start gathering information about your upcoming art heist, you will need to
 import your data from the `art_heist.csv` spreadsheet. Inside the
-`lib/museum.rb` file you will see a method called `self.new_from_csv`. In this
+`lib/museum.rb` file you will see a method called `new_from_csv`. In this
 method you should load up the [CSV][] file and save it to a variable where the
 data can be used in other methods.
 
@@ -29,7 +29,7 @@ the following information:
 - Which gallery has the most paintings?
 - Which gallery has the fewest?
 - Which artist has the most paintings in the museum?
-- What is the total value of all of the Van Gogh paintings in the museum?
+- What is the total value of all the paintings of any given artist in the museum?
 
 ## Instructions
 
@@ -47,19 +47,9 @@ method behavior as you write your solution. Run `learn` to see your progress.
 
 ### Museum Class
 
-- Start with `initialize`: A museum should be initialized with a museum name as
-  a `String`. The `initialize` method should set up any class instance variables.
-
-- `new_from_csv`: takes in the name of a CSV file (`art_heist.csv` in our case)
-and converts values to instances of galleries, paintings and artists. You may
-choose to develop relationships between museums, galleries, paintings and
-artists as you see fit, but at minimum:
-
- - A museum can have multiple galleries. An array of all galleries should be
-  returned using a `galleries` method or accessor.
- - A gallery can have multiple paintings
- - An artist can have multiple paintings
- - A painting contains its value
+- `new_from_csv`: reads and converts CSV data values to instances of galleries,
+  paintings and artists. You may choose to develop relationships between
+  museums, galleries, paintings and artists as you see fit
 
 - `biggest_gallery`: return the name of the biggest gallery by number of
   paintings
