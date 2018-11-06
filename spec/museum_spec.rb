@@ -4,7 +4,7 @@ describe 'Museum' do
   describe '.new_from_csv' do
 
     before(:example) do
-      @museum = Museum.new('Metropolitan Museum of Art')
+      @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
     end
 
     it 'exists' do
@@ -13,7 +13,7 @@ describe 'Museum' do
 
 
     it 'creates galleries and stores them as class instances' do
-      @museum.new_from_csv('art_heist.csv')
+      @museum.new_from_csv
       expect( @museum.galleries.length ).to eq(3)
       expect( @museum.galleries.map {|gallery| gallery.name} ).to include("Red")
       expect( @museum.galleries.map {|gallery| gallery.name} ).to include("Green")
@@ -25,7 +25,7 @@ describe 'Museum' do
 
   describe '.biggest_gallery' do
     before(:example) do
-      @museum = Museum.new('Metropolitan Museum of Art')
+      @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
       @museum.new_from_csv('art_heist.csv')
     end
 
@@ -41,7 +41,7 @@ describe 'Museum' do
   describe '.smallest_gallery' do
 
     before(:example) do
-      @museum = Museum.new('Metropolitan Museum of Art')
+      @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
       @museum.new_from_csv('art_heist.csv')
     end
 
@@ -57,7 +57,7 @@ describe 'Museum' do
   describe '.artist_most_occurring' do
 
     before(:example) do
-      @museum = Museum.new('Metropolitan Museum of Art')
+      @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
       @museum.new_from_csv('art_heist.csv')
     end
 
@@ -73,7 +73,7 @@ describe 'Museum' do
   describe '.value_of_artist' do
 
     before(:example) do
-      @museum = Museum.new('Metropolitan Museum of Art')
+      @museum = Museum.new('Metropolitan Museum of Art', 'art_heist.csv')
       @museum.new_from_csv('art_heist.csv')
     end
 
