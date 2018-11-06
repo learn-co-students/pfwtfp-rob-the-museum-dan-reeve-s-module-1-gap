@@ -4,7 +4,10 @@ class Museum
 
   def initialize(name, museum_csv_filename)
     @name = name
+
+    raise 'A CSV file is required' if !museum_csv_filename.end_with?(".csv")
     @museum_csv_filename = museum_csv_filename
+
   end
 
   def new_from_csv
