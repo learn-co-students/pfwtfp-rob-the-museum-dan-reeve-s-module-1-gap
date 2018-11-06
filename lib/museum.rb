@@ -2,7 +2,7 @@ require 'csv'
 
 class Museum
 
-  def initialize(name)
+  def initialize(name, museum_csv_filename)
     @name = name
 
     raise 'A CSV file is required' if !museum_csv_filename.end_with?(".csv")
@@ -10,10 +10,10 @@ class Museum
 
   end
 
-  def new_from_csv(museum_csv_filename)
+  def new_from_csv
     # Here's the data file, pass this to CSV.read (see the CSV documentation for
     # more help!
-    data_file = (File.join(File.dirname(__FILE__), '..', museum_csv_filename))
+    data_file = (File.join(File.dirname(__FILE__), '..', @museum_csv_filename))
 
     CSV.foreach(data_file) do |row|
       gallery = Gallery.find_or_create_by_name(row[1])
